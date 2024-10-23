@@ -1,8 +1,4 @@
-'use client';
-
-import dynamic from 'next/dynamic';
-
-const CanvasContainer = dynamic(() => import('@/components/threejs/canvas-container'), { ssr: false });
+import CanvasContainer from '@/components/threejs/canvas-container';
 
 const ThreeJS = () => {
   return (
